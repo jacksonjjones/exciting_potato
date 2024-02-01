@@ -81,8 +81,6 @@ var currentWeatherSection = function(cityName) {
                     var currentWindSpeed = $("#current-wind-speed");
                     currentWindSpeed.text("Wind Speed: " + response.wind.speed + " MPH");
 
-                    console.log(response);
-
                 })
 
         })
