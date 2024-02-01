@@ -12,20 +12,20 @@
 <body>
   <header class="container-fluid text-sm-center p-5 bg-dark text-white">
     <div class="container p-3">
-    <h2 class="">Weather Dashboard</h2>
+    <h2>Weather Dashboard</h2>
     </div>
   </header>
 
-  <div class="container">
+  <main class="container">
     <div class="row">
       <div class="col-lg-4 mt-2">
         <div class="card" id="search-cities"> 
           <div class="card-header"> 
             <h6>Search for a City:</h6>
               <form class="form-inline pb-2 text-center" id="search-input">
-                <input type="text" class="form-control" id="searched-city">
+                <input type="text" placeholder="name of a city" class="form-control" id="searched-city">
                 <div class="d-grid col">
-                  <button type="submit" class="btn btn-primary m-2" id="search-btn">search</button>
+                  <button type="submit" class="btn btn-primary m-2" id="search-btn">Search</button>
                 </div>
               </form>
               <div id="search-history-container" class="row search-history-container">
@@ -44,7 +44,7 @@
           <p class="current-humidity" id="current-humidity"></p>
           <p class="current-wind-speed" id="current-wind-speed"></p>
         </div>
-      <div class="row d-block" id="future-forecast-container">
+        <div class="row d-block" id="future-forecast-container">
           <h2 class="future-forecast-title" id="future-forecast-title"></h2>
             <div id="forecasts-cards-container" class="forecasts-cards-container d-flex justify-content-between">
                 <div class="future-card bg-primary rounded">
@@ -84,9 +84,9 @@
                 </div>
             </div>
         </div>
+      </div>
     </div>
-  </div>
-</div>
+  </main>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
