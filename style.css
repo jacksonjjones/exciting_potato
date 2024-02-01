@@ -19,9 +19,9 @@
 }
 
 .future-icon {
-    width: 50px;
-    height: 50px;
-    margin: 0 0 0 15px;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
 }
 
 .future-temp, .future-humidity, .future-wind {
