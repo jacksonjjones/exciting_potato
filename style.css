@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.current-weather-container {
+    border: 1px solid lightgray;
+}
+
+.future-card-details {
+    width: 18%;
+    padding: 7px 0 0 7px;
+    
+}
+
+.future-date {
+    font-size: 23px;
+}
+
+.future-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 15px;
+}
+
+.future-temp, .future-humidity, .future-wind {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.future-forecast-container {
+    padding-top: 5px;
+}
+
+.past-search-container{
+ text-align: center;
+ 
+}
+
+.search-history-container {
+    border-top: solid 2px lightgray;
+    margin-left: 8px;
+    margin-right:8px;
+    border-radius: 1px;
+    padding-top: 5px;
+}
+
+
+
