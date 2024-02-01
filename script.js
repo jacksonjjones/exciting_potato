@@ -86,10 +86,6 @@ var currentWeatherSection = function(cityName) {
                 })
 
         })
-        .catch(function(err) {    
-            $("#search-input").val("");
-            alert("We could not find the city you searched for. Try searching for a valid city.");
-        });
 };
 
 var fiveDayForecastSection = function(cityName) {
@@ -162,12 +158,9 @@ $("#search-input").on("submit", function(event) {
     
     var cityName = $("#searched-city").val();
 
-    if (cityName === "" || cityName == null) {
-        alert("Please enter name of city.");
-    } else {   
         currentWeatherSection(cityName);
         fiveDayForecastSection(cityName);
-    }
+    
 });
 
 $("#search-history-container").on("click", "p", function() {
